@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\bstone\repos\stenbone_takes_on_modern_cpp_challenge\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\bstone\repos\stenbone_takes_on_modern_cpp_challenge\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{0BB93C6B-B0EB-3BFF-8BD0-A4D1CAD7ADE5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

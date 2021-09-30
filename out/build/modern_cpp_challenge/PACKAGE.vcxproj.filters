@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\bstone\repos\stenbone_takes_on_modern_cpp_challenge\out\build\modern_cpp_challenge\CMakeFiles\a340b7eb8bfcfba30fe647147a0ca910\PACKAGE_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{D83C48CC-2523-340B-A14F-E3D331AFBBEA}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
