@@ -4,7 +4,7 @@ project(modern_cpp_challenge VERSION 0.1.0)
 include(CTest)
 enable_testing()
 
-add_executable(modern_cpp_challenge main.cpp)
+add_executable(modern_cpp_challenge problem1.cpp)
 
 set(CPACK_PROJECT_NAME ${PROJECT_NAME})
 set(CPACK_PROJECT_VERSION ${PROJECT_VERSION})
