@@ -1,4 +1,3 @@
-#include <iostream>
 #include <cassert>
 
 /**
@@ -19,8 +18,7 @@ int sum_of_numbers_divisible_by_3_and_5(int limit) {
     return sum;
 }
 
-int main(int, char**) {
+int main(int argc, const char* argv[]) {
     // 3 + 5 + 6 + 9 + 10 + 12 + 15 + 18 = 78
     assert(sum_of_numbers_divisible_by_3_and_5(20) == 78);
-    return 0;
 }

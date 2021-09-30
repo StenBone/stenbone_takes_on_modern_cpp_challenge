@@ -305,7 +305,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="C:\Users\bstone\repos\stenbone_takes_on_modern_cpp_challenge\problem1.cpp" />
+    <ClCompile Include="C:\Users\bstone\repos\stenbone_takes_on_modern_cpp_challenge\problem2.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="C:\Users\bstone\repos\stenbone_takes_on_modern_cpp_challenge\out\build\modern_cpp_challenge\ZERO_CHECK.vcxproj">
