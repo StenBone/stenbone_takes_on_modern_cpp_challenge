@@ -1,4 +1,4 @@
-/* Problem 2 */
+/* Problem 3 */
 #include <iostream>
 #include <cassert>
 #include <math.h>
