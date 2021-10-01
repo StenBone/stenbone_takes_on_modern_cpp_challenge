@@ -5,7 +5,9 @@ include(CTest)
 enable_testing()
 
 #add_executable(modern_cpp_challenge problem1.cpp)
-add_executable(modern_cpp_challenge problem2.cpp)
+#add_executable(modern_cpp_challenge problem2.cpp)
+#add_executable(modern_cpp_challenge problem3.cpp)
+add_executable(modern_cpp_challenge problem4.cpp)
 
 set(CPACK_PROJECT_NAME ${PROJECT_NAME})
 set(CPACK_PROJECT_VERSION ${PROJECT_VERSION})
