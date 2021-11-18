@@ -1,0 +1,16 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "23122221-33ad-411e-ab0e-c8fd5e5310cc": {
+      "ProjectGuid": "23122221-33ad-411e-ab0e-c8fd5e5310cc",
+      "DisplayName": "stenbone_takes_on_modern_cpp_challenge",
+      "ColorIndex": 0
+    },
+    "9357233a-0a25-44f1-98df-4e0ae7216b29": {
+      "ProjectGuid": "9357233a-0a25-44f1-98df-4e0ae7216b29",
+      "DisplayName": "ModernCppChallengeTests",
+      "ColorIndex": 1
+    }
+  },
+  "NextColorIndex": 2
+}
