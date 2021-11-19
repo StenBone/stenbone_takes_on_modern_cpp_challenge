@@ -50,6 +50,7 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
+    <None Include=".clang-tidy" />
     <None Include="packages.config" />
   </ItemGroup>
   <ItemDefinitionGroup />
