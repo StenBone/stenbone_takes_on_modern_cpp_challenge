@@ -26,8 +26,9 @@ int least_common_multiple(int a, int b) {
 }
 
 /* Problem 4 */
+/* requires vcpkg module boost-multiprecision:x64-windows */
 int largest_prime_smaller_than_number(unsigned int number) {
-    /* It's important to me to use a third-party library. The community around C++ is a strength in its own right. */
-    // vcpkg module boost-multiprecision:x64-windows
+    // It's important to me to third-party libraris in this challenge. 
+    // The community around C++ is a strength in its own right.
     return boost::multiprecision::miller_rabin_test(number, 25);
 }
