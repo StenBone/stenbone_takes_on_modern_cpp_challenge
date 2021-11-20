@@ -1,5 +1,6 @@
 #pragma once
 #include <numeric>
+#include <boost/multiprecision/miller_rabin.hpp>
 
 /* Problem 1 */
 int sum_of_numbers_divisible_by_3_and_5(int limit) {
@@ -26,5 +27,6 @@ int least_common_multiple(int a, int b) {
 
 /* Problem 4 */
 int largest_prime_smaller_than_number(unsigned int number) {
-
+    // vcpkg module boost-multiprecision:x64-windows
+    return boost::multiprecision::miller_rabin_test(number, 25);
 }
