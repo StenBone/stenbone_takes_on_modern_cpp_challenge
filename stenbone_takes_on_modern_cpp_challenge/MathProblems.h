@@ -27,6 +27,7 @@ int least_common_multiple(int a, int b) {
 
 /* Problem 4 */
 int largest_prime_smaller_than_number(unsigned int number) {
+    /* It's important to me to use a third-party library. The community around C++ is a strength in its own right. */
     // vcpkg module boost-multiprecision:x64-windows
     return boost::multiprecision::miller_rabin_test(number, 25);
 }
