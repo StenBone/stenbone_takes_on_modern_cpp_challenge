@@ -14,7 +14,7 @@ TEST(MathProblems, Problem3) {
     EXPECT_EQ(least_common_multiple(12, 8), 24);
 }
 TEST(MathProblems, Problem4) {
-    unsigned int prime_nbr = 2936981;
-    EXPECT_FALSE(largest_prime_smaller_than_number(prime_nbr * 2));
-    EXPECT_TRUE(largest_prime_smaller_than_number(prime_nbr));
+    const auto prime_nbr = 2936981;
+    const auto target = prime_nbr + 2;
+    EXPECT_EQ(largest_prime_smaller_than_number(target), prime_nbr);
 }

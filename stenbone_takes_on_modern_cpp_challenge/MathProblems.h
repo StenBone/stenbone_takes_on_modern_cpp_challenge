@@ -30,5 +30,10 @@ int least_common_multiple(int a, int b) {
 int largest_prime_smaller_than_number(unsigned int number) {
     // It's important to me to third-party libraris in this challenge. 
     // The community around C++ is a strength in its own right.
-    return boost::multiprecision::miller_rabin_test(number, 25);
+    int result = number;
+    while (boost::multiprecision::miller_rabin_test(number, 25) != true) {
+        number--;
+    }
+
+    return result;;
 }
